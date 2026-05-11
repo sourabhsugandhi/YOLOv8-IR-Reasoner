@@ -139,10 +139,10 @@ All evaluations are performed on the same validation split.
 
 | Metric    | YOLOv8 | YOLOv8 IR Reasoner |
 | --------- | ------ | ------------------ |
-| Precision | 0.3478 | **0.3843**         |
-| Recall    | 0.2094 | 0.2090             |
-| mAP@50    | 0.2010 | **0.2057**         |
-| mAP@50–95 | 0.0987 | **0.0990**         |
+| Precision | 0.353 | **0.388**         |
+| Recall    | **0.234** | 0.231             |
+| mAP@50    | 0.206 | **0.213**         |
+| mAP@50–95 | 0.099 | **0.105**         |
 
 ---
 
