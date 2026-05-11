@@ -50,10 +50,9 @@ head:
 
   #IR-Reasoner blocks (per-scale)
 
-  - [15, 1, Reasoner, []]  #P3 reasoning
-  - [18, 1, Reasoner, []]  #P4 reasoning
-  - [21, 1, Reasoner, []]  #P5 reasoning
+  - [15, 1, Reasoner, []] #P3 reasoning
+  - [18, 1, Reasoner, []] #P4 reasoning
+  - [21, 1, Reasoner, []] #P5 reasoning
 
   #Detector head
-  - [[-3,-2,-1], 1, Detect, [nc]]
-
+  - [[-3, -2, -1], 1, Detect, [nc]]

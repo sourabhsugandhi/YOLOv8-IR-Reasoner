@@ -93,6 +93,7 @@ from .head import (
     YOLOESegment26,
     v10Detect,
 )
+from .reasoner import Reasoner
 from .transformer import (
     AIFI,
     MLP,
@@ -105,8 +106,6 @@ from .transformer import (
     TransformerEncoderLayer,
     TransformerLayer,
 )
-
-from .reasoner import Reasoner
 
 __all__ = (
     "AIFI",
@@ -171,6 +170,7 @@ __all__ = (
     "Pose26",
     "Proto",
     "RTDETRDecoder",
+    "Reasoner",
     "RepC3",
     "RepConv",
     "RepNCSPELAN4",
@@ -189,5 +189,4 @@ __all__ = (
     "YOLOESegment",
     "YOLOESegment26",
     "v10Detect",
-    "Reasoner",
 )
